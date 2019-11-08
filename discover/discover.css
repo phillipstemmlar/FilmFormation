@@ -1,0 +1,105 @@
+article.Movie
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    
+    margin: 25px 40px 25px 0px;   
+}
+
+div.movieProperties
+{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+.imgMovie
+{
+    vertical-align: top;
+    border-radius: 10px;
+    
+    width: 223px;
+    height: 335px;
+    margin: 18px;
+}
+
+.imgMovie img
+{
+    border-radius: inherit;
+    width: inherit;
+    height: inherit;
+}
+
+table.movieAlignment td
+{
+    vertical-align: top;
+}
+
+div#filter
+{
+    background-color: rgb(9,9,37);  
+    height: 80px;
+    font-size: 12pt;
+    border-radius: 10px;
+    
+    margin: 15px 7%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+div.filterBAR
+{
+    padding: 10px;
+    padding-bottom: 15px;
+    
+    flex:1;
+}
+
+div.filterBAR select
+{
+    background-color: white;
+    border: none;
+    border-radius: 5px; 
+    
+    height: auto;
+    width: 100%;
+	max-width: 400px; 
+    
+	
+    padding-left: 5px;
+    
+    font-size: 12pt;
+}
+
+div.filterBAR .content
+{
+    padding-bottom: 5px;
+}
+
+div.movie_Genres
+{
+	color: white;
+	font-weight: bold;
+}
+
+span.genreList
+{
+	color: orange;
+	font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

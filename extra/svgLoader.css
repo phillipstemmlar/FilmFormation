@@ -1,0 +1,31 @@
+svg.Triangle_Load{
+	transform-origin: 50% 65%;
+}
+
+svg.Triangle_Load polygon{
+	stroke-dasharray: 17;
+	animation: dash 2.5s linear infinite;
+}
+
+@keyframes dash{
+    to{
+		stroke-dashoffset: 136
+    }
+}
+
+	
+@keyframes rotate
+{
+    100%{
+		transform: rotate(360deg )
+    }
+}
+
+div.loading
+{
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+    font-size: 15pt;
+	flex: 2;
+}

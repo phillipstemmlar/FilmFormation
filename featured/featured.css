@@ -1,0 +1,96 @@
+div#Body
+{
+    margin-right: 2%;
+}
+
+section#Movies
+{
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.container-Movie
+{
+    margin-right: 3%;
+    padding: 0px;
+    width: 250px;
+    flex: 0;
+    border: 0px solid white;
+}
+
+.table-Movie
+{
+    border-radius: 10px;
+    table-layout: fixed;
+    vertical-align: bottom;
+    
+    text-align: left;
+    font-size: 14pt;
+    
+    width: 250px;
+    padding-right: 0; 
+    
+}
+
+div.movie_Title
+{
+    border-bottom: 2px solid orange;
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+	margin-left: 10px;
+	width: 223px;
+}
+
+.table-Movie td
+{
+    border: 0px solid red;
+}
+
+.table-Movie div.movie_Title h3
+{
+    font-size: 13pt;
+}
+
+div.fanartIMG
+{
+    width: 223px;
+    height: 335px;  
+    
+    margin-left: 10px; 
+    
+    position: relative;
+    top: 0;
+    left: 0;    
+}
+
+div.fanartIMG img
+{
+	width: 223px;
+    height: 335px; 
+	border-radius: 10px;
+}
+
+div.movieIMG img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+	width: 223px;
+    height: 335px;
+	border-radius: 10px;
+}
+
+div.movieIMG:hover
+{
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+article.container-Movie div.fanartIMG img
+{
+    width: 223px;
+    height: 335px;
+    border-radius: 10px;
+}

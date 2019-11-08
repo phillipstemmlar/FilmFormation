@@ -1,0 +1,199 @@
+section#Movies
+{
+    text-align: center;
+    width: 80%;
+    table-layout: auto;
+    border-spacing: 20px 20px;
+    margin-left: 10%;
+	display: flex;
+	flex-wrap:  wrap;
+	justify-content: space-between
+}
+
+article.Movie
+{
+	//background-color: black;
+    padding-top: 20px;
+    padding-bottom: 70px;
+	
+	width: 100%;
+	text-align: center;
+	flex: none;
+}
+
+div.wrapperIMG
+{
+    width: 223px;
+    height: 335px;
+    
+    position: absolute;
+}
+
+div.wrapperIMG img.wrapper-image
+{
+    display: block;
+    width: 223px;
+    height: 335px;
+	border-radius: 10px;
+}
+
+div.wrapperIMG div.movieIMG-content
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: orange;
+}
+
+div.wrapperIMG div.movieIMG-overlay
+{
+    width: 223px;
+    height: 335px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s ease;
+    background: rgba(0,0,0,0.8);
+}
+
+div.wrapperIMG:hover div.movieIMG-overlay
+{
+    opacity: 1;
+}
+
+div.CONTENT
+{
+    display: flex;
+    flex-wrap: nowrap;
+	height: auto;
+    justify-content: space-between;
+	flex-direction: row;
+	
+	//border: 1px solid white;
+}
+
+
+@media screen and (max-width: 800px)
+{
+	article.Movie
+	{
+		//background-color: aqua;
+		padding-top: 20px;
+		padding-bottom: 70px;
+
+		max-width: 225px;		
+	}
+	
+	div.CONTENT
+	{
+		display: flex;
+		flex-wrap: wrap;
+		height: auto;
+		justify-content: flex-start;
+		flex-direction: row;
+
+		//border: 1px solid red;
+	}
+}
+
+div.VID
+{
+    flex: 0;
+	flex-basis: calc(100% - 227px);
+	height: auto;
+	
+	min-width: 223px;
+	
+	//border: 0px solid white;
+}
+
+div.IMG
+{
+    flex: 0;
+	flex-basis: 223px;
+	height: 335px;
+	
+	//border: 0px solid white;
+}
+
+div.VID iframe
+{
+    height: 100%;   
+    width: 100%;
+}
+
+div.title
+{
+    padding-left: 0px;
+    vertical-align: bottom;
+}
+
+div.title h3
+{
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+div.Properties
+{
+    width: 183px;
+    height: 285px;
+    margin: 40px 20px 10px 20px;
+    
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 10pt;
+    line-height: 1.5em;
+}
+
+div.Properties table td
+{
+    border: 0px solid white;
+    text-align: left;
+    vertical-align: top;
+}
+
+div.values
+{
+    font-size: 9pt;
+    color: orange;
+    font-weight: normal;
+    padding-left: 5px;
+}
+
+span.mins
+{
+    font-size: 8pt;
+}
+
+div.Properties img.flag
+{
+    
+    height: 15px;
+    width: auto;
+    vertical-align: center;
+    border-radius: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

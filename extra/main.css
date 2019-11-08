@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import 'svgLoader.css';
+
+body
+{
+    margin: 0;
+    padding:0;
+    background-color: rgb(6,6,28);   
+    
+    color: white;
+    font-family: sans-serif, 'Archivo', 'Fjalla One';
+}
+
+div#Head
+{
+    background-color: rgb(1, 3, 16);
+    border-bottom: 3px solid orange;
+    
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    min-height: 135px;
+    font-size: 14pt;
+    font-family: 'Fjalla One', 'Archivo', sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+
+div#Head div#nav,
+div#Head div#logo
+{
+    flex:0;
+}
+
+div#Head div#logo img
+{
+    max-width: 90vw;
+    max-height: 13.33vw;
+}
+
+div#Head a.curPage
+{
+    vertical-align: top;
+    background: orange;
+    color: rgb(6,6,28);
+    border-radius: 3px;
+    padding: 2px 4px;
+    font-size: 13pt;
+}
+
+div#SearchNav
+{
+    padding: 10px 0px 20px 30px;
+    white-space: nowrap;
+}
+
+input#SearchBar
+{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 400px;  
+    font-size: 13pt;
+    
+    max-width: 77vw;
+    max-height: 7vw;
+}
+
+input#SearchButton
+{
+    height: 28px;
+    width: 28px;
+    vertical-align: middle;
+    
+    max-width: 76vw;
+    max-height: 6vw;
+}
+
+div#Head img
+{
+    
+    height: 80px;
+}
+
+div#Head nav
+{
+    padding: 10px 0px;
+}
+
+
+
+div#Body
+{ 
+    margin: 0px 75px 50px 75px;
+    min-height: calc(60vh - 50px);
+    text-align: left;
+}
+
+section
+{
+    margin: 20px 0px 20px 0px;
+}
+
+footer
+{
+    padding: 20px 0px 20px 100px;
+    background-color: rgb(0,0,0);
+    border-top: 3px solid orange;
+    color: white;
+    font-size: 15pt;
+    font-family: 'Fjalla One', 'Archivo', sans-serif;
+}
+
+a
+{
+    color: orange;
+    font-size: inherit;
+    text-decoration: none;
+}
+
+
+div.movieProperty
+{
+    text-align: left;
+    font-size: 11pt;
+    margin: 15px 5% 15px 2%;
+}
+
+div.movie_Title h3
+{
+    font-size: 25pt;
+    margin: 25px 0px 0px 0px;
+    
+    
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+div.movie_Title hr
+{
+    color: orange;
+}
+
+div.movie_Overview
+{
+    max-height: 9em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.movie_ReleaseDate, div.movie_Rating,
+div.movie_IMDb_Rating, div.movie_AgeRestriction,
+div.movie_Genre, div.movie_boxOffice
+{
+    color: white;
+    font-weight: bold;
+}
+
+.imgIMDb
+{
+    vertical-align: bottom;
+}
+
+span.rating_score
+{
+    font-size: 13pt;
+}
+
+span.rating_total
+{
+    vertical-align: bottom;
+    font-size: 9pt;
+    color: grey;
+    
+}
+
+span.rating_votes
+{
+    vertical-align: bottom;
+    font-size: 11pt;
+    font-weight: normal;
+    color: grey;
+    padding-left: 7px;
+}
+
+div#Head div#logo div#log
+{
+	text-align: left;
+	border: 0px solid white;
+	
+	margin-top: 5px;
+	padding: 5px;
+	
+	width: calc(100% - 20px);
+	
+	font-size: 12pt;
+	
+	display: flex;
+}
+
+div#Head div#logo div#log span#Username
+{
+	flex: 1;
+	border: 0px solid white;
+}
+
+div#Head div#logo div#log div#login-controls
+{
+	
+}
+
+div#Head div#logo div#log input
+{
+	background: orange;
+	color: rgb(1, 3, 16);
+	
+	font-weight: bold;
+	
+	border : 0px solid black;
+	border-radius: 3px;
+	
+	height : 25px;
+	width: 70px;
+	
+	margin-left: 5px;
+}
+
+div#Head div#logo div#log input:hover
+{
+	background: rgb(255,195,30);
+	border : 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

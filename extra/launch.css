@@ -1,0 +1,45 @@
+div#Body
+{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+div#Movies
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+div.container
+{
+    flex: 0;
+    width: 500px;
+    height: auto;
+    margin-bottom: 30px
+}
+
+div.container h4
+{
+    margin-bottom: 10px;
+}
+
+div.container a
+{
+    color: white;
+}
+
+div.container table
+{
+    width: 500px;
+    height: 250px;
+}
+
+div.container table div
+{
+    width: 100%;
+    height: 100%;
+    
+    background-repeat: no-repeat;
+    background-size: cover; 
+}

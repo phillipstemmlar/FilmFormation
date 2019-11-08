@@ -1,0 +1,287 @@
+div#calendar
+{
+	text-align: center;
+	margin: 20px 0px 0px 0px;
+}
+
+div#cal-controls
+{
+	text-align: left;
+	border-bottom: 2px solid orange;
+	margin-bottom: 5px;
+}
+
+div#cal-month-title 
+{
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+div#cal-year-title
+{
+	font-size: 15pt;
+}
+
+div.cal-control
+{
+	display: flex;
+}
+
+div.cal-control-title
+{
+	flex: 1;
+	//background: lightblue;
+}
+
+div.cal-control-input
+{
+	flex: 2;
+	//background: pink;
+	text-align: right;
+	padding: 0px 0px 10px 0px;
+	position: relative;
+}
+
+div.cal-control-input div#loading-bar
+{
+	top: -7px;
+	left: calc(100% - (150px+10px)*3 - 100px);
+	position: absolute;
+}
+
+div.cal-control-input input,
+div.cal-control-input select
+{
+	width: 150px;
+	margin-left: 10px; 
+	border-radius: 5px;
+	border: none;
+}
+
+div#cal-content
+{
+	width: 100%;
+}
+
+div#cal-days
+{
+	padding-top: 10px;
+	display: flex;
+	width: 100%;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+div.cal-day
+{
+	flex: 1;
+}
+
+div.cal-row
+{
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+div.cal-cell
+{
+	position: relative;
+	text-align: left;
+	border: 1px solid white;
+	margin: 0px 5px;
+	padding: 10px 0px;
+	flex: 0;
+	min-height: 100px;
+	flex-basis: 100%;
+	min-width: 100px;
+	cursor: pointer;
+}
+
+div.cal-cell-day
+{
+	background-color: #060815;
+}
+
+div.cal-cell-day:hover
+{
+	background-color: navy;
+}
+
+
+div.cal-cell-num
+{
+	border: 1px solid;
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	width: 25px;
+	height: 20px;
+	text-align: center;
+	padding-top: 3px;
+}
+
+div.cal-cell-content
+{
+	//margin: 2px;
+	margin-top: 0px;
+}
+
+div.cal-cell-content ul
+{
+	padding: 10px 5px;
+	margin: 0px;
+	margin-top: 10px;
+	font-size: 10pt;
+	width: calc(100% - 2*5px);
+}
+
+div.cal-cell-content ul li
+{
+	height: 1.2em;
+	white-space: nowrap; 
+	overflow: hidden;
+	text-overflow: ellipsis;
+	
+	margin: 5px 0px;
+	padding: 2px 5px;
+	
+	color: black;
+	background-color: orange;
+	
+	border: 1px solid white;
+}
+
+div#overlay
+{
+	position: fixed;
+	top:0;
+	left: 0;
+    width:100%;
+   	height: 100%;	
+	z-index:100;  
+	padding-top: 8%;
+	
+	color: white;
+	background-color: rgba(0,0,0,0.9);
+		
+	display: flex;
+	justify-content: center;
+}
+
+div#overCont input
+{
+	position: absolute;
+	top: -40px;
+	left: calc(100% - 50px);
+	width: 50px;
+	height: 30px;
+	border-radius: 5px;
+	border: none;
+}
+
+div#overCont select
+{
+	position: absolute;
+	top: -40px;
+	left: calc(100% - 50px - 325px - 10px);
+	height: 30px;
+	width: 325px;
+	
+	border-radius: 5px;
+	border: none;
+}
+
+div#overCont
+{
+	width: 60%;
+	height: auto;
+	
+	color: black;
+	background-color: white;
+	background-color: rgba(0,0,0,0);
+	
+	text-align: center;
+	position: relative;
+	
+	display: flex;
+}
+
+div#over-img
+{
+	flex: 0;
+	min-width: 223px;
+	flex-basis: 250px;
+}
+
+div#over-img img
+{
+	border-radius: 10px;
+	
+	width: 100%;
+	height: auto;
+	max-height: 450px;
+	color: white;
+}
+
+div#over-info
+{
+	flex: 1;
+	padding: 0px 0px 0px 30px;
+	text-align: left;
+	color: white;
+}
+
+div#over-title h3
+{
+	font-size: 20px;
+}
+div#over-title
+{
+	border-bottom: 2px solid orange;
+}
+
+div#over-released
+{
+	color: white;
+	font-size: 15px;
+	margin: 15px 0px;
+}
+
+div#over-released span#relDate
+{
+	color: orange;
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+div#over-overview h5
+{
+	font-size: 17px;
+	margin-bottom: 15px;
+}
+
+div#over-plot
+{
+	font-size: 15px;
+	margin-bottom: 15px;
+	padding-left: 10px;
+}
+
+div#over-genres
+{
+	color: white;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+
+div#over-genres span#genreList
+{
+	color: orange;
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+
+
+
